@@ -16,7 +16,7 @@
 
 1. Clone the project using the command `git clone https://github.com/fakars/backend-test-exercise.git`.
 2. At the project's root run the command `./gradlew clean test`, some optional parameters are available using 
-    the project flag `-D{parameterName=arguments}`.
+    the project flag `-DparameterName=argument`.
 3. Optional parameters that can be passed:
 
 | ParamName     | Description                                                                  | Available values                                   |
