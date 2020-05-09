@@ -1,6 +1,6 @@
 # Primary back end automation tests exercises
 
- Automated tests for [MercadoLibre API](https://developers.mercadolibre.com.ar/es_ar/items-y-busquedas)
+ Automated tests for MercadoLibre [REST API](https://developers.mercadolibre.com.ar/es_ar/items-y-busquedas)
 
 ## Technologies used:
 
