@@ -1,0 +1,19 @@
+!!rest.utilities.TestDataLoader
+baseUri: "https://api.mercadolibre.com/"
+
+sites:
+   arg: MLA
+   br: MLB
+   ve: MLV
+
+basePath:
+   search: "/sites/"
+
+queryParams:
+   search: "q"
+
+searchValues:
+   - Playstation
+   - Monitor BenQ
+   - Zapatillas Addidas
+   - Tv Led 50 pulgadas
