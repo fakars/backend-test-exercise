@@ -6,7 +6,7 @@
 
 * [Java v1.8.0_221](https://www.oracle.com/technetwork/java/javase/8u221-relnotes-5480116.html)
 * [Gradle v6.0.1](https://docs.gradle.org/current/userguide/userguide.html)
-+ [JUnit v5.4.2](https://junit.org/junit5/docs/current/api/)
+* [JUnit v5.4.2](https://junit.org/junit5/docs/current/api/)
 * [REST-assured v2.9.0](http://rest-assured.io/)
 * [Hamcrest v1.3](http://hamcrest.org/JavaHamcrest/javadoc/1.3/)
 
@@ -19,7 +19,7 @@
     the flag `-D{parameterName=arguments}`.
 3. Optional parameters that can be passed:
 
-| ParamName     | Description                                                                  | Available values                                   |                                                                                                                                                                                                                         | Opciones                      |
+| ParamName     | Description                                                                  | Available values                                   |
 | ------------- | ---------------------------------------------------------------------------- | -------------------------------------------------- |
 | `environment` | Sets the environment from which to run the tests                             | N/A, *Default: 'production'*                       |                             
 | `site`        | Sets the ${SITE_ID} part of the request url to run test for selected country | arg, br, ve, etc, *Default: 'arg'*                 |             
