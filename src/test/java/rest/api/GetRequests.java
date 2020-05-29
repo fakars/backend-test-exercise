@@ -13,7 +13,7 @@ import static com.jayway.restassured.RestAssured.given;
 
 public class GetRequests {
 
-    private static TestDataLoader data = TestDataLoader.load("tests-data");;
+    private static TestDataLoader data = TestDataLoader.load("tests-data");
 
     public static List<ValidatableResponse> getSearchValidatedResponses() {
         List<ValidatableResponse> responses = new ArrayList<>();

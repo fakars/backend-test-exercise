@@ -101,7 +101,6 @@ public class SearchTests {
 			response.assertThat()
 				.body(
 					"id", equalTo(searchProductIds.get(index)),
-					"seller_id.id", equalTo(searchProducts.get(index).get("seller.id")),
 					"title", equalTo(searchProducts.get(index).get("title")),
 					"price", equalTo(searchProducts.get(index).get("price")),
 					"accepts_mercadopago", equalTo(searchProducts.get(index).get("accepts_mercadopago")),
